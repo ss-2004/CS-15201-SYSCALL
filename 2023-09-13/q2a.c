@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-int main(){
+int main() {
     int fd[2];
     if(pipe(fd) == -1) {
         perror("Pipe error!\n");
