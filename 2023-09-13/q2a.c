@@ -19,13 +19,13 @@ int main(){
 
     if(pid == 0) {
         close(fd[0]);
-        dup(fd[1], STDOUT_FILENO);
+        dup(fd[1]);
         execlp("ls", "ls", "-l", NULL);
         perror("execlp failed!\n");
         exit(EXIT_FAILURE);
     } else {
         close(fd[1]);
-        dup(fd[0], STDOUT_FILENO);
+        dup(fd[0]);
         execlp("sort", "sort", NULL);
         perror("execlp failed!\n");
         exit(EXIT_FAILURE);
