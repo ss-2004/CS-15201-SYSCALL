@@ -5,7 +5,7 @@
 
 int main() {
     int fd[2];
-    char msg = "Hello from child process!";
+    char msg[] = "Hello from child process!";
     char buf[100];
 
     if(pipe(fd) == -1) {
@@ -13,7 +13,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    pid_t pid = fork;
+    pid_t pid = fork();
     if(pid == -1) {
         perror("Fork failed!\n");
         exit(EXIT_FAILURE);
@@ -22,7 +22,7 @@ int main() {
     if(pid == 0) {
         close(fd[1]);
         read(fd[0], buf, sizeof(buf));
-        printf("Child process received : %s\n". buf);
+        printf("Child process received : %s\n", buf);
         close(fd[0]);
     } else {
         close(fd[0]);
