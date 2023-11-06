@@ -1,0 +1,1 @@
+./d.out ./g.out ./r.out ./t.out ./h.out
