@@ -1,3 +1,5 @@
+// Q2 : Write a program to create a thread with default attributes and then change the priority to HIGHPRIORITY.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
