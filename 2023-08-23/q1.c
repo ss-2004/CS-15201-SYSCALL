@@ -1,3 +1,9 @@
+/* Q1 : Write a program in C to demonstrate the basic usage of fork() system call.
+ * In the parent process,  display its process id, its child's process id and its owner id
+ * In the child process, display its process id and its parent's process id. 
+ * Use wait() system call in parent process's block to wait for the child process to exit.
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
