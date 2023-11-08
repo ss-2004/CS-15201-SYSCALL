@@ -1,3 +1,9 @@
+/*
+ * Q1b :
+ * Use the following Hare and Turtle process blueprint to implement IPC solutions by defining cooperating processes
+ * First use fork() and execvp() to create the processes and develop the application using pthreads (shared memory).
+ */
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <stdlib.h>
