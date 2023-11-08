@@ -1,4 +1,10 @@
-// Q2
+/*
+ *  Q2 : 
+ *  Implement program # 4 of assignment for week # 5, using sigaction()
+ *  Modify the program to mask any other signal that appears, while the signal handler is busy processing a signal .
+ *  Hint: Define the signal_handler in such a way, that it remains under execution for some time (loop may be used), when another signal gets generated.
+ */
+
 #include <time.h>
 #include <stdio.h>
 #include <signal.h>
