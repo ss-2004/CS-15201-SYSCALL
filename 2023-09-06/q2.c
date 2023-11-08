@@ -1,3 +1,5 @@
+// Q2 : Write a program in C to demonstrate Zombie processes. 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
