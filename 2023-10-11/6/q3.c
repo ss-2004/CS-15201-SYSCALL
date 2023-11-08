@@ -1,4 +1,9 @@
-// Q3
+/*
+ * Q3 : 
+ * Implement a program using sigaction() and signal_set to block any of the signals SIGINT, SIGHUP and SIGABRT. 
+ * The program should also display the list of blocked/pending signals.
+ */
+
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
