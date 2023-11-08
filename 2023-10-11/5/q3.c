@@ -1,4 +1,11 @@
-// Q3
+/*
+ * Q3 : 
+ * Write a program a parent process receives a SIGCHLD signal after termination of child process.
+ * In this program create a child and a parent process. 
+ * Once the child process terminates, the parent process will recieve a SIGCHLD signal. 
+ * This signal will invoke a handler which will print the EXIT STATUS of the child process.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
