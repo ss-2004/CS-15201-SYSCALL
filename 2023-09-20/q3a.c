@@ -1,3 +1,11 @@
+/* Q3a/b : 
+ * Write a program to implement Echo Service between multiple clients and a server using named pipes.
+ * The server uses a well known FIFO to communicate with the clients. 
+ * Each client maintains its own FIFO for receiving content from the server. 
+ * The clients will write chunks of data (a string) to the server using the well known FIFO. 
+ * The server will then echo the string back to the clients using the individual FIFOs maintained by the clients. 
+ */
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
