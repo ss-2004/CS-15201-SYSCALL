@@ -1,3 +1,8 @@
+/* Q2b :
+ * Perform program A using dup2() instead of dup(). 
+ * Accept the two commands i.e., ls -land sort as command line arguments. 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
