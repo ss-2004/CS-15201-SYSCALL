@@ -1,3 +1,5 @@
+// Q2 : Write a program to create a chain of 5 processes.
+
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
