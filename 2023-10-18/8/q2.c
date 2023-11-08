@@ -1,3 +1,12 @@
+/*
+ * Q2 : 
+ * The Program should demonstrate the use of several Pthread condition variable
+ * The main routine creates three threads. 
+ * Two of the threads perform work and update a variable "race".
+ * The first thread add 3 in the “race” and second thread subtract 1 from the “race”. 
+ * The third thread waits until the count variable reaches 100.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
