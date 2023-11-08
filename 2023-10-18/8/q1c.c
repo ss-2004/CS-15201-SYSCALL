@@ -1,3 +1,9 @@
+/*
+ * Q1c : 
+ * Use pthread_mutex_lock() and pthread_mutex_unlock() functions to ensure mutual exclusion between the two pthreads. 
+ * Check the ending balance now.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
