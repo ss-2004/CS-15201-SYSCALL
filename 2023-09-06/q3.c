@@ -1,3 +1,12 @@
+/* Q3 : 
+ * Use fork-exec combination where child exec the new program while parent continue to execute the original code. 
+ * The new program here is lscommand with command-line argument -l. 
+ * Extension: 
+ * Execute your code from a directory that has lot of files (e.g /etc) and execute ls -lcommand. 
+ * What happens if you enter ctrl+c as soon as the listing start to display. 
+ * Try to display the exit status of child process as it has been interrupted by ctrl+c.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
