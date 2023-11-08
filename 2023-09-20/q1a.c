@@ -1,3 +1,11 @@
+/* Q1a/b
+ * Use FIFO / named pipe to establish communication between two different processes –  client and server. 
+ * The client and server communicate with each other using two different FIFOs to establish two way communication. 
+ * The client process sends a <file-name> of a file residing on the server, using a FIFO. 
+ * The server fetches the <file-name> from that FIFO, reads the contents of the file and then writes the contents read back to the client process using another FIFO. 
+ * Finally, the client displays the content receieved from the serveron its terminal.
+ */
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
