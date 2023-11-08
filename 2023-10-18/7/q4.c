@@ -1,3 +1,11 @@
+/*
+ * Q4 :
+ * Write a program that computes the square roots of the integers from 0 to 99 in a separate thread 
+ * Return an array of doubles containing the results. 
+ * In the meantime the main thread should display a short message to the user 
+ * Lastly, display the results of the computation when they are ready.
+ */
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
