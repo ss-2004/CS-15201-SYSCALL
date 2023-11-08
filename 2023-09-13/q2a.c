@@ -1,3 +1,8 @@
+/* Q2a : 
+ * Using pipe() and dup(), write a program where child process will execute “ls -l” 
+ * The output should act as input for parent process which will execute “sort” on it.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
