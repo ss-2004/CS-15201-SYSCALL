@@ -1,4 +1,5 @@
-// Q1
+// Q1 : Implement program # 3 of assignment for week # 5, and specify the action to be associated with the SIGCHLD signal using sigaction() function.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
