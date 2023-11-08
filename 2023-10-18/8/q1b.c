@@ -1,3 +1,9 @@
+/*
+ * Q1b : 
+ * Move the calls to pthread_join() function after the creation of both pthreads. 
+ * Run the program several times. Do you see different result?
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
