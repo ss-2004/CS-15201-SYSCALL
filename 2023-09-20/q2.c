@@ -1,3 +1,9 @@
+/* Q2 : 
+ * Redirecting Output: “ls -l | sort” 
+ * Use FIFO to develop a program where one process will execute “ls -l”
+ * The output of the command will act as input for other process which will execute “sort” on it.
+ */
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
