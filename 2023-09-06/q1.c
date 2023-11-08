@@ -1,3 +1,14 @@
+/* Q1 : 
+ * Write a C program to create a child process using fork() system call. 
+ * Also use wait() system call in parent process such that it gets the return status of its child
+ * return status must be printed on console. 
+ * Hint: Use 
+ * (i) WIFEXITED 
+ * (ii) WEXITSTATUS 
+ * (iii) WIFSIGNALED 
+ * POSIX macros to print the exit status of child process. 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
