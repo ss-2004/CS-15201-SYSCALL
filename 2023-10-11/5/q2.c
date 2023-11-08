@@ -1,4 +1,13 @@
-// Q2
+/*
+ * Q2 : 
+ * Write a program to define a handler for SIGALRM signal.
+ * In this program you need to set the alarm in main process as defined by the user in seconds. 
+ * The process then generate SIGALRM signal after 2 seconds. 
+ * The signal handler needs to identify the SIGALRM. 
+ * This process needs to iterated for a maximum of 5 times. 
+ * After setting the alarm for 5 times the program will terminate.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
