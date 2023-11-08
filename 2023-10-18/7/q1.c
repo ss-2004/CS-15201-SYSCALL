@@ -1,3 +1,11 @@
+/*
+ * Q1 : 
+ * Write a program that creates 10 threads. Have each thread execute the same function and pass each thread a unique number. 
+ * Each thread should print “Hello, World (thread n)” five times where ‘n’ is replaced by the thread’s number. 
+ * Use an array of pthread_t objects to hold the various thread IDs. 
+ * Be sure the program doesn’t terminate until all the threads are complete.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
