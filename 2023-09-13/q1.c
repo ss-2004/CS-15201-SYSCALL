@@ -1,3 +1,6 @@
+// Q1 : Using pipe() system call to send a string of characters from parent process to child process. 
+// Child process will read the string and print the string in child process itself.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
