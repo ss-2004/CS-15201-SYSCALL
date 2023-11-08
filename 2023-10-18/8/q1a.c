@@ -1,3 +1,14 @@
+/*
+ * Q1a : 
+ * Write a program to simulate deposit/withdraw activities on a banking account: 
+ * Initialize the beginning balance (global variable) to 1 million, withdraw 600 thousands, and then deposit 500 thousands. 
+ * Create two Posix threads in main(), which call the withdraw and the deposit functions respectively. 
+ * Both withdraw and deposit functions have one parameter, which represent the amount to withdraw or deposit. 
+ * You can create these two threads in any order to perform withdraw and deposit action. 
+ * However, before you create the second thread, use pthread_join() to wait for the first thread to terminate. 
+ * Finally print out the ending balance.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
