@@ -1,3 +1,13 @@
+/*
+ * Q3 :
+ * Write a program for matrix multiplication using multiple threads
+ * Each thread will perform multiplication of one row from first matrix A and one column from second matrix B. 
+ * Therefore, each entry in the resultant matrix will be a result of a specific thread
+ * [R]m*l = [A]m*n . [B]n*l
+ * Hence the total number of threads are m*l. 
+ * Dimensions of the matrix should be given as arguments to the main thread.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
