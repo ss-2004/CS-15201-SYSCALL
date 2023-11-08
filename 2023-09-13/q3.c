@@ -1,3 +1,12 @@
+/* Q3 : 
+ * Write a program to create your own man(manual) utility – myMan.c
+ * Use system calls fork, exec,  pipe, dup/dup2. 
+ * In this program, the parent process communicates with the child process using a pipe. 
+ * The parent process accepts the unix command/system calls (eg., ls, cat,ps, fork etc.) as command line argument. 
+ * This argument is passed to the child process through the pipe
+ * The child process invokes a new xterm terminal displaying the man page of the given command.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
